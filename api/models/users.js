@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
-//const config = require('../config/database');
-
+const config = require('../config/database');
 // User Schema
 const UserSchema = mongoose.Schema({
   name: {
